@@ -1,6 +1,6 @@
-name: Magnus Sörensen (robotic programmer)
+name: Magnus Sörensen
 url: http://byteofsoren.github.io
-description: Magnus Sörensens blog site
+description: Robotic programmer
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
