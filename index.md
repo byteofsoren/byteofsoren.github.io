@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robotic student online.
-tagline: Supporting tagline
+tagline:
 ---
 {% include JB/setup %}
 
@@ -12,14 +12,16 @@ Västerås. This page is a kind of diary to track and store useful information
 and there fore may contain technical information without any or non-existent
 information.
 
-# Courses i read or have finished.
--- Year 1
-. Vector algebra
-. Single variable analytics (not finished)
-. CAD in robotics
-. Intro to programming in C
-. Mechanics 1
-. Data structures
+## Courses i read or have finished.
+# Year 1
+<ul>
+    <li> Vector algebra </li>
+    <li> Single variable analytics (not finished)</li>
+    <li> CAD in robotics</li>
+    <li> Intro to programming in C</li>
+    <li>Mechanics 1</li>
+    <li> Data structures</li>
+</ul>
 -- Year 2
 . Multi variable calculus
 . MATLAB
