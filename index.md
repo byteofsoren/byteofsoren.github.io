@@ -14,7 +14,7 @@ and there fore may contain technical information without any or non-existent
 information. For deaper information about me check out the about page.
 [About me](about)
 
-
+# Post
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
