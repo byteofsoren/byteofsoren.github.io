@@ -4,7 +4,6 @@ title: Robotic student online.
 tagline:
 ---
 {% include JB/setup %}
-{% site.page = site.page + "about.md" %}
 
 # Introduction
 Hello and welcome to my blog about robotics, programming and mathematics.
