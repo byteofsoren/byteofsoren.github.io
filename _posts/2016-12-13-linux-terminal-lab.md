@@ -11,9 +11,9 @@ So we in Aros robotic club is going to have a Linux lab and we are
 going to need to clone a github repo for the lab.
 
 First copy the text below [ctrl]+[c]:
-{% highlight shell }
+{% highlight shell %}
  $ git clone  https://github.com/byteofsoren/arc-linux-labb1.git
-{% endhighlight }
+{% endhighlight %}
 Then open a terminal and paste the code by [ctrl]+[p]
 Then just press [enter].
 
