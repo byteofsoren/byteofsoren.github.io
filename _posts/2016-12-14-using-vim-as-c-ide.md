@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using vim as C IDE"
-description: "How to set up vim as a IDE for C programming"
+description: ""
 category: 
-tags: [vim,linu
+tags: []
 ---
 {% include JB/setup %}
 
@@ -152,9 +152,6 @@ flags = [
 {% endhighlight %}
 To generate that go to root of your project and write
 
-{% highlight shell %}
-ycm\_generator -v -b make -c gcc -x c .
-{% endhighlight %}
 
 # Go to defenition with ctags
 A other verry handy tool to have is Ctags. Ctags let you in vim go to
