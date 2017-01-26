@@ -155,6 +155,7 @@ To generate that go to root of your project and write
 {% highlight shell %}
 ycm_generator -v -b make -c gcc -x c .
 {% endhighlight %}
+
 # Go to defenition with ctags
 A other verry handy tool to have is Ctags. Ctags let you in vim go to
 defenition go to the root dir of the directory and write:
