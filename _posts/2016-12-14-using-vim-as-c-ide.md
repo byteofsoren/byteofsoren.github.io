@@ -105,7 +105,7 @@ Then edit the template file.
 sudo vim /usr/share/YCM-Generator/template.py
 {% endhighlight %}
 In there you can find a array that need to contain language specific parameters.
-{% highlight python%}
+{% highlight python %}
 flags = [
         '-Wall',
         '-Wextra',
@@ -151,7 +151,6 @@ flags = [
 
 {% endhighlight %}
 To generate that go to root of your project and write
-
 
 # Go to defenition with ctags
 A other verry handy tool to have is Ctags. Ctags let you in vim go to
