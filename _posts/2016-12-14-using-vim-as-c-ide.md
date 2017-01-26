@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using vim as C IDE"
-description: ""
+description: "How to set up vim as a IDE for C programming"
 category: 
-tags: []
+tags: [vim,linu
 ---
 {% include JB/setup %}
 
@@ -44,17 +44,17 @@ allows vim to do tab completion. The draw back of that amazing plugin is that it
 can be hard to install. It requires both Clang and a version of vim that
 support python.
 To get autocompletion in the entire project you need to generate a
-.ycm_extra_conf file.
+.ycm\_extra\_conf file.
 But first you need to have a Makefile in the root of your project google how to
 write them or simply copy my file.
 
 {% highlight Makefile %}
 ## My generic makefile written by Magnus Sörensen. GPL3.0 Lisense.
 
-## CROSS_TOLL is used if you need co add a cross platform compiler.
-CROSS_TOLL=
+## CROSS\_TOLL is used if you need co add a cross platform compiler.
+CROSS\_TOLL=
 ## CC is the compiler you use in this project.
-CC=$(CROSS_TOLL) gcc
+CC=$(CROSS\_TOLL) gcc
 TTY=/dev/pts/2
 ## Target is the source files with out .c or .cpp  tex main.c ~> main
 TARGET=    # < Add files to this line linke
@@ -153,7 +153,7 @@ flags = [
 To generate that go to root of your project and write
 
 {% highlight shell %}
-ycm_generator -v -b make -c gcc -x c .
+ycm\_generator -v -b make -c gcc -x c .
 {% endhighlight %}
 
 # Go to defenition with ctags
